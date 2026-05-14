@@ -5,7 +5,7 @@ from spells import Fireball, IceLance, LightningBolt
 warrior = Character(18, 12, 16, 8, 10, 12, 'warrior')
 mage = Character(10, 14, 12, 18, 20, 16, 'mage')
 hunter = Character(14, 18, 14, 12, 12, 14, 'hunter')
-goblin = Monster(12, 10, 12, 6, 6, 6)
+dragon = Monster(12, 10, 12, 6, 6, 6)
 
 fire = Fireball()
 ice = IceLance()
@@ -19,7 +19,7 @@ mage.add_spell(light)
 print(f"Воин: HP={warrior.current_health}/{warrior.max_health}, Мана={warrior.mana}/{warrior.max_mana}, Урон={warrior.damage}, Защита={warrior.defense}")
 print(f"Маг: HP={mage.current_health}/{mage.max_health}, Мана={mage.mana}/{mage.max_mana}, Урон={mage.damage}, Защита={mage.defense}")
 print(f"Охотник: HP={hunter.current_health}/{hunter.max_health}, Мана={hunter.mana}/{hunter.max_mana}, Урон={hunter.damage}, Защита={hunter.defense}")
-print(f"Гоблин: HP={goblin.current_health}/{goblin.max_health}, Урон={goblin.damage}, Защита={goblin.defense}")
+print(f"Дракон: HP={goblin.current_health}/{goblin.max_health}, Урон={goblin.damage}, Защита={goblin.defense}")
 
 print("\n--- Воин колдует ---")
 try:
